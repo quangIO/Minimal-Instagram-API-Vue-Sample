@@ -87,7 +87,7 @@ export default {
       //let url = 'https://api.instagram.com/v1/users/self/?access_token=' + this.token
       $.get(url, function(res) {
         if (res.meta.code == 400) vm.login()
-        vm.followings = res.data
+        vm.followings = res.data || []
         if (vm.followings.length == 0) {
           vm.$dialog.alert({
             title: 'Hmm, such empty ?',
