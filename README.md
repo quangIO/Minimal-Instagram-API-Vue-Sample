@@ -1,7 +1,9 @@
 # insta
 
 > A Instagram client example written in VueJS
+
 [![forthebadge](http://forthebadge.com/images/badges/made-with-vue.svg)](http://forthebadge.com)
+
 ## Build Setup
 
 ``` bash
